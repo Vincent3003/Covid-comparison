@@ -273,190 +273,190 @@ Q2_2022_covid_vietnam
 Q1_2020_deaths_china = data_china %>% # take the data frame
   mutate(timeRangeOfInterest = date >= start_Q1_2020 & date <= end_Q1_2020) %>%
   filter(timeRangeOfInterest) %>% # filter out only the time range of interest
-  summarise(Q1_2020 = round(mean(deaths), digits = 2)) # calculate the avg of that quarter
+  summarise(Q1_2020 = round(mean(total_deaths), digits = 2)) # calculate the avg of that quarter
 Q1_2020_deaths_china
 
 Q1_2020_deaths_usa = data_usa %>% # take the data frame
   mutate(timeRangeOfInterest = date >= start_Q1_2020 & date <= end_Q1_2020) %>%
   filter(timeRangeOfInterest) %>% # filter out only the time range of interest
-  summarise(Q1_2020 = round(mean(deaths), digits = 2)) # calculate the avg of that quarter
+  summarise(Q1_2020 = round(mean(total_deaths), digits = 2)) # calculate the avg of that quarter
 Q1_2020_deaths_usa
 
 Q1_2020_deaths_vietnam = data_vietnam %>% # take the data frame
   mutate(timeRangeOfInterest = date >= start_Q1_2020 & date <= end_Q1_2020) %>%
   filter(timeRangeOfInterest) %>% # filter out only the time range of interest
-  summarise(Q1_2020 = round(mean(deaths), digits = 2)) # calculate the avg of that quarter
+  summarise(Q1_2020 = round(mean(total_deaths), digits = 2)) # calculate the avg of that quarter
 Q1_2020_deaths_vietnam
 
 # calculate the total deaths of Q2 2020 in China, USA, & Vietnam
 Q2_2020_deaths_china = data_china %>% # take the data frame
   mutate(timeRangeOfInterest = date >= start_Q2_2020 & date <= end_Q2_2020) %>%
   filter(timeRangeOfInterest) %>% # filter out only the time range of interest
-  summarise(Q2_2020 = round(mean(deaths), digits = 2)) # calculate the avg of that quarter
+  summarise(Q2_2020 = round(mean(total_deaths), digits = 2)) # calculate the avg of that quarter
 Q2_2020_deaths_china
 
 Q2_2020_deaths_usa = data_usa %>% # take the data frame
   mutate(timeRangeOfInterest = date >= start_Q2_2020 & date <= end_Q2_2020) %>%
   filter(timeRangeOfInterest) %>% # filter out only the time range of interest
-  summarise(Q2_2020 = round(mean(deaths), digits = 2))  # calculate the avg of that quarter
+  summarise(Q2_2020 = round(mean(total_deaths), digits = 2))  # calculate the avg of that quarter
 Q2_2020_deaths_usa
 
 Q2_2020_deaths_vietnam = data_vietnam %>% # take the data frame
   mutate(timeRangeOfInterest = date >= start_Q2_2020 & date <= end_Q2_2020) %>%
   filter(timeRangeOfInterest) %>% # filter out only the time range of interest
-  summarise(Q2_2020 = round(mean(deaths), digits = 2)) # calculate the avg of that quarter
+  summarise(Q2_2020 = round(mean(total_deaths), digits = 2)) # calculate the avg of that quarter
 Q2_2020_deaths_vietnam
 
 # calculate the total deaths of Q3 2020 in China, USA, & Vietnam
 Q3_2020_deaths_china = data_china %>% # take the data frame
   mutate(timeRangeOfInterest = date >= start_Q3_2020 & date <= end_Q3_2020) %>%
   filter(timeRangeOfInterest) %>% # filter out only the time range of interest
-  summarise(Q3_2020 = round(mean(deaths), digits = 2)) # calculate the avg of that quarter
+  summarise(Q3_2020 = round(mean(total_deaths), digits = 2)) # calculate the avg of that quarter
 Q3_2020_deaths_china
 
 Q3_2020_deaths_usa = data_usa %>% # take the data frame
   mutate(timeRangeOfInterest = date >= start_Q3_2020 & date <= end_Q3_2020) %>%
   filter(timeRangeOfInterest) %>% # filter out only the time range of interest
-  summarise(Q3_2020 = round(mean(deaths), digits = 2)) # calculate the avg of that quarter
+  summarise(Q3_2020 = round(mean(total_deaths), digits = 2)) # calculate the avg of that quarter
 Q3_2020_deaths_usa
 
 Q3_2020_deaths_vietnam = data_vietnam %>% # take the data frame
   mutate(timeRangeOfInterest = date >= start_Q3_2020 & date <= end_Q3_2020) %>%
   filter(timeRangeOfInterest) %>% # filter out only the time range of interest
-  summarise(Q3_2020 = round(mean(deaths), digits = 2)) # calculate the avg of that quarter
+  summarise(Q3_2020 = round(mean(total_deaths), digits = 2)) # calculate the avg of that quarter
 Q3_2020_deaths_vietnam
 
 # calculate the total deaths of Q4 2020 in China, USA, & Vietnam
 Q4_2020_deaths_china = data_china %>% # take the data frame
   mutate(timeRangeOfInterest = date >= start_Q4_2020 & date <= end_Q4_2020) %>%
   filter(timeRangeOfInterest) %>% # filter out only the time range of interest
-  summarise(Q4_2020 = round(mean(deaths), digits = 2)) # calculate the avg of that quarter
+  summarise(Q4_2020 = round(mean(total_deaths), digits = 2)) # calculate the avg of that quarter
 Q4_2020_deaths_china
 
 Q4_2020_deaths_usa = data_usa %>% # take the data frame
   mutate(timeRangeOfInterest = date >= start_Q4_2020 & date <= end_Q4_2020) %>%
   filter(timeRangeOfInterest) %>% # filter out only the time range of interest
-  summarise(Q4_2020 = round(mean(deaths), digits = 2)) # calculate the avg of that quarter
+  summarise(Q4_2020 = round(mean(total_deaths), digits = 2)) # calculate the avg of that quarter
 Q4_2020_deaths_usa
 
 Q4_2020_deaths_vietnam = data_vietnam %>% # take the data frame
   mutate(timeRangeOfInterest = date >= start_Q4_2020 & date <= end_Q4_2020) %>%
   filter(timeRangeOfInterest) %>% # filter out only the time range of interest
-  summarise(Q4_2020 = round(mean(deaths), digits = 2)) # calculate the avg of that quarter
+  summarise(Q4_2020 = round(mean(total_deaths), digits = 2)) # calculate the avg of that quarter
 Q4_2020_deaths_vietnam
 
 # calculate the total deaths of Q1 2021 in China, USA, & Vietnam
 Q1_2021_deaths_china = data_china %>% # take the data frame
   mutate(timeRangeOfInterest = date >= start_Q1_2021 & date <= end_Q1_2021) %>%
   filter(timeRangeOfInterest) %>% # filter out only the time range of interest
-  summarise(Q1_2021 = round(mean(deaths), digits = 2)) # calculate the avg of that quarter
+  summarise(Q1_2021 = round(mean(total_deaths), digits = 2)) # calculate the avg of that quarter
 Q1_2021_deaths_china
 
 Q1_2021_deaths_usa = data_usa %>% # take the data frame
   mutate(timeRangeOfInterest = date >= start_Q1_2021 & date <= end_Q1_2021) %>%
   filter(timeRangeOfInterest) %>% # filter out only the time range of interest
-  summarise(Q1_2021 = round(mean(deaths), digits = 2)) # calculate the avg of that quarter
+  summarise(Q1_2021 = round(mean(total_deaths), digits = 2)) # calculate the avg of that quarter
 Q1_2021_deaths_usa
 
 Q1_2021_deaths_vietnam = data_vietnam %>% # take the data frame
   mutate(timeRangeOfInterest = date >= start_Q1_2021 & date <= end_Q1_2021) %>%
   filter(timeRangeOfInterest) %>% # filter out only the time range of interest
-  summarise(Q1_2021 = round(mean(deaths), digits = 2)) # calculate the avg of that quarter
+  summarise(Q1_2021 = round(mean(total_deaths), digits = 2)) # calculate the avg of that quarter
 Q1_2021_deaths_vietnam
 
 # calculate the total deaths of Q2 2021 in China, USA, & Vietnam
 Q2_2021_deaths_china = data_china %>% # take the data frame
   mutate(timeRangeOfInterest = date >= start_Q2_2021 & date <= end_Q2_2021) %>%
   filter(timeRangeOfInterest) %>% # filter out only the time range of interest
-  summarise(Q2_2021 = round(mean(deaths), digits = 2)) # calculate the avg of that quarter
+  summarise(Q2_2021 = round(mean(total_deaths), digits = 2)) # calculate the avg of that quarter
 Q2_2021_deaths_china
 
 Q2_2021_deaths_usa = data_usa %>% # take the data frame
   mutate(timeRangeOfInterest = date >= start_Q2_2021 & date <= end_Q2_2021) %>%
   filter(timeRangeOfInterest) %>% # filter out only the time range of interest
-  summarise(Q2_2021 = round(mean(deaths), digits = 2)) # calculate the avg of that quarter
+  summarise(Q2_2021 = round(mean(total_deaths), digits = 2)) # calculate the avg of that quarter
 Q2_2021_deaths_usa
 
 Q2_2021_deaths_vietnam = data_vietnam %>% # take the data frame
   mutate(timeRangeOfInterest = date >= start_Q2_2021 & date <= end_Q2_2021) %>%
   filter(timeRangeOfInterest) %>% # filter out only the time range of interest
-  summarise(Q2_2021 = round(mean(deaths), digits = 2)) # calculate the avg of that quarter
+  summarise(Q2_2021 = round(mean(total_deaths), digits = 2)) # calculate the avg of that quarter
 Q2_2021_deaths_vietnam
 
 # calculate the total deaths of Q3 2021 in China, USA, & Vietnam
 Q3_2021_deaths_china = data_china %>% # take the data frame
   mutate(timeRangeOfInterest = date >= start_Q3_2021 & date <= end_Q3_2021) %>%
   filter(timeRangeOfInterest) %>% # filter out only the time range of interest
-  summarise(Q3_2021 = round(mean(deaths), digits = 2)) # calculate the avg of that quarter
+  summarise(Q3_2021 = round(mean(total_deaths), digits = 2)) # calculate the avg of that quarter
 Q3_2021_deaths_china
 
 Q3_2021_deaths_usa = data_usa %>% # take the data frame
   mutate(timeRangeOfInterest = date >= start_Q3_2021 & date <= end_Q3_2021) %>%
   filter(timeRangeOfInterest) %>% # filter out only the time range of interest
-  summarise(Q3_2021 = round(mean(deaths), digits = 2)) # calculate the avg of that quarter
+  summarise(Q3_2021 = round(mean(total_deaths), digits = 2)) # calculate the avg of that quarter
 Q3_2021_deaths_usa
 
 Q3_2021_deaths_vietnam = data_vietnam %>% # take the data frame
   mutate(timeRangeOfInterest = date >= start_Q3_2021 & date <= end_Q3_2021) %>%
   filter(timeRangeOfInterest) %>% # filter out only the time range of interest
-  summarise(Q3_2021 = round(mean(deaths), digits = 2)) # calculate the avg of that quarter
+  summarise(Q3_2021 = round(mean(total_deaths), digits = 2)) # calculate the avg of that quarter
 Q3_2021_deaths_vietnam
 
 # calculate the total deaths of Q4 2021 in China, USA, & Vietnam
 Q4_2021_deaths_china = data_china %>% # take the data frame
   mutate(timeRangeOfInterest = date >= start_Q4_2021 & date <= end_Q4_2021) %>%
   filter(timeRangeOfInterest) %>% # filter out only the time range of interest
-  summarise(Q4_2021 = round(mean(deaths), digits = 2)) # calculate the avg of that quarter
+  summarise(Q4_2021 = round(mean(total_deaths), digits = 2)) # calculate the avg of that quarter
 Q4_2021_deaths_china
 
 Q4_2021_deaths_usa = data_usa %>% # take the data frame
   mutate(timeRangeOfInterest = date >= start_Q4_2021 & date <= end_Q4_2021) %>%
   filter(timeRangeOfInterest) %>% # filter out only the time range of interest
-  summarise(Q4_2021 = round(mean(deaths), digits = 2)) # calculate the avg of that quarter
+  summarise(Q4_2021 = round(mean(total_deaths), digits = 2)) # calculate the avg of that quarter
 Q4_2021_deaths_usa
 
 Q4_2021_deaths_vietnam = data_vietnam %>% # take the data frame
   mutate(timeRangeOfInterest = date >= start_Q4_2021 & date <= end_Q4_2021) %>%
   filter(timeRangeOfInterest) %>% # filter out only the time range of interest
-  summarise(Q4_2021 = round(mean(deaths), digits = 2)) # calculate the avg of that quarter
+  summarise(Q4_2021 = round(mean(total_deaths), digits = 2)) # calculate the avg of that quarter
 Q4_2021_deaths_vietnam
 
 # calculate the total deaths of Q1 2022 in China, USA, & Vietnam
 Q1_2022_deaths_china = data_china %>% # take the data frame
   mutate(timeRangeOfInterest = date >= start_Q1_2022 & date <= end_Q1_2022) %>%
   filter(timeRangeOfInterest) %>% # filter out only the time range of interest
-  summarise(Q1_2022 = round(mean(deaths), digits = 2)) # calculate the avg of that quarter
+  summarise(Q1_2022 = round(mean(total_deaths), digits = 2)) # calculate the avg of that quarter
 Q1_2022_deaths_china
 
 Q1_2022_deaths_usa = data_usa %>% # take the data frame
   mutate(timeRangeOfInterest = date >= start_Q1_2022 & date <= end_Q1_2022) %>%
   filter(timeRangeOfInterest) %>% # filter out only the time range of interest
-  summarise(Q1_2022 = round(mean(deaths), digits = 2)) # calculate the avg of that quarter
+  summarise(Q1_2022 = round(mean(total_deaths), digits = 2)) # calculate the avg of that quarter
 Q1_2022_deaths_usa
 
 Q1_2022_deaths_vietnam = data_vietnam %>% # take the data frame
   mutate(timeRangeOfInterest = date >= start_Q1_2022 & date <= end_Q1_2022) %>%
   filter(timeRangeOfInterest) %>% # filter out only the time range of interest
-  summarise(Q1_2022 = round(mean(deaths), digits = 2)) # calculate the avg of that quarter
+  summarise(Q1_2022 = round(mean(total_deaths), digits = 2)) # calculate the avg of that quarter
 Q1_2022_deaths_vietnam
 
 # calculate the total deaths of Q2 2022 in China, USA, & Vietnam
 Q2_2022_deaths_china = data_china %>% # take the data frame
   mutate(timeRangeOfInterest = date >= start_Q2_2022 & date <= end_Q2_2022) %>%
   filter(timeRangeOfInterest) %>% # filter out only the time range of interest
-  summarise(Q2_2022 = round(mean(deaths), digits = 2)) # calculate the avg of that quarter
+  summarise(Q2_2022 = round(mean(total_deaths), digits = 2)) # calculate the avg of that quarter
 Q2_2022_deaths_china
 
 Q2_2022_deaths_usa = data_usa %>% # take the data frame
   mutate(timeRangeOfInterest = date >= start_Q2_2022 & date <= end_Q2_2022) %>%
   filter(timeRangeOfInterest) %>% # filter out only the time range of interest
-  summarise(Q2_2022 = round(mean(deaths), digits = 2)) # calculate the avg of that quarter
+  summarise(Q2_2022 = round(mean(total_deaths), digits = 2)) # calculate the avg of that quarter
 Q2_2022_deaths_usa
 
 Q2_2022_deaths_vietnam = data_vietnam %>% # take the data frame
   mutate(timeRangeOfInterest = date >= start_Q2_2022 & date <= end_Q2_2022) %>%
   filter(timeRangeOfInterest) %>% # filter out only the time range of interest
-  summarise(Q2_2022 = round(mean(deaths), digits = 2)) # calculate the avg of that quarter
+  summarise(Q2_2022 = round(mean(total_deaths), digits = 2)) # calculate the avg of that quarter
 Q2_2022_deaths_vietnam
 #-------------------------------------------------------------------------------#
 
@@ -544,4 +544,54 @@ Q2_2022_vietnam_percent = round((Q2_2022_deaths_vietnam/Q2_2022_covid_vietnam)*1
 Q2_2022_vietnam_percent
 #-------------------------------------------------------------------------------#
 
+
+#-------------------------------------------------------------------------------#
+# create a new table for China
+china_percentage <- c(Q1_2020_china_percent, Q2_2020_china_percent, Q3_2020_china_percent, 
+                      Q4_2020_china_percent, Q1_2021_china_percent, Q2_2021_china_percent, 
+                      Q3_2021_china_percent, Q4_2021_china_percent, Q1_2022_china_percent, 
+                      Q2_2022_china_percent)
+china_percentage
+
+# create a new table for USA
+usa_percentage <- c(Q1_2020_usa_percent, Q2_2020_usa_percent, Q3_2020_usa_percent, 
+                    Q4_2020_usa_percent, Q1_2021_usa_percent, Q2_2021_usa_percent, 
+                    Q3_2021_usa_percent, Q4_2021_usa_percent, Q1_2022_usa_percent, 
+                    Q2_2022_usa_percent)
+usa_percentage
+
+# create a new table for china
+vietnam_percentage <- c(Q1_2020_vietnam_percent, Q2_2020_vietnam_percent, Q3_2020_vietnam_percent, 
+                        Q4_2020_vietnam_percent, Q1_2021_vietnam_percent, Q2_2021_vietnam_percent, 
+                        Q3_2021_vietnam_percent, Q4_2021_vietnam_precent, Q1_2022_vietnam_precent, 
+                        Q2_2022_vietnam_percent)
+vietnam_percentage
+
+# merge the mean data of China, USA, Vietnam into one table
+table1.2 = rbind(china_percentage, usa_percentage)
+table1.2
+table2.2 = rbind(table1.1, vietnam_percentage)
+table2.2
+
+# convert columns of an table2 data frame into rows
+table2.2 <- as.data.frame(t(table2.2))
+table2.2
+
+# assigning the unnamed first column to a new name of a data frame
+table3.2 = setNames(cbind(rownames(table2.2), table2.2, row.names = NULL), 
+                    c("quarteryear", "China", "USA", "Vietnam"))
+table3.2
+#-------------------------------------------------------------------------------#
+
+
+#-------------------------------------------------------------------------------#
+line_graph_3 <- tidyr::pivot_longer(table3.1, -c(quarteryear))
+line_graph_3
+
+ggplot(data = line_graph_3, aes(x = quarteryear, y = value, 
+           group = name, color = name)) +
+  geom_line() + theme_classic() +
+  scale_color_manual(name = "Variable",
+                     labels = c("China", "USA", "Vietnam"),
+                     values = c("red", "blue", "yellow"))
 
