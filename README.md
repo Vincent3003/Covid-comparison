@@ -1,4 +1,4 @@
-# Covid-comparison
+# Compare COVID-19 in 3 different countries
 
 This is my personal project for this summer.
 
